@@ -7,7 +7,7 @@ namespace CoreAppFood.Repositories
     public class GenericRepository<T> where T : class, new()
     {
         Context c = new Context();
-        public List<T> CategoryList()
+        public List<T> TList()
         {
             return c.Set<T>().ToList();
         }
@@ -26,7 +26,7 @@ namespace CoreAppFood.Repositories
             c.Set<T>().Update(p);
             c.SaveChanges();
         }
-        public void GetCategory(int id)
+        public void GetT(int id)
         {
             c.Set<T>().Find(id);
         }
