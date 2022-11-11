@@ -2,19 +2,8 @@
 
 namespace CoreAppFood.Repositories
 {
-    public class CategoryRepository
+    public class CategoryRepository:GenericRepository<Category>
     {
-        Context c = new Context();
-
-        public void FoodAdd(Food f)
-        {
-            c.Foods.Add(f);
-            c.SaveChanges();
-        }
-
-        public void FoodRemove()
-        {
-
-        }
+      
     }
 }
