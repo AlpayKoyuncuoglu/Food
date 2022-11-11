@@ -8,7 +8,7 @@ namespace CoreAppFood.Controllers
         public IActionResult Index()
         {
             CategoryRepository categoryRepository = new CategoryRepository();
-            return View();
+            return View(categoryRepository.TList());
         }
     }
 }
