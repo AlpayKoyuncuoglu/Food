@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.netPro\\CoreAppFood\\CoreAppFood\\CoreAppFood.csproj": {}
+    "C:\\Users\\ALPAY\\Desktop\\food\\Food\\CoreAppFood\\CoreAppFood.csproj": {}
   },
   "projects": {
-    "D:\\.netPro\\CoreAppFood\\CoreAppFood\\CoreAppFood.csproj": {
+    "C:\\Users\\ALPAY\\Desktop\\food\\Food\\CoreAppFood\\CoreAppFood.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.netPro\\CoreAppFood\\CoreAppFood\\CoreAppFood.csproj",
+        "projectUniqueName": "C:\\Users\\ALPAY\\Desktop\\food\\Food\\CoreAppFood\\CoreAppFood.csproj",
         "projectName": "CoreAppFood",
-        "projectPath": "D:\\.netPro\\CoreAppFood\\CoreAppFood\\CoreAppFood.csproj",
-        "packagesPath": "C:\\Users\\akoyuncuoglu.ESTERTEKNOLOJI\\.nuget\\packages\\",
-        "outputPath": "D:\\.netPro\\CoreAppFood\\CoreAppFood\\obj\\",
+        "projectPath": "C:\\Users\\ALPAY\\Desktop\\food\\Food\\CoreAppFood\\CoreAppFood.csproj",
+        "packagesPath": "C:\\Users\\ALPAY\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ALPAY\\Desktop\\food\\Food\\CoreAppFood\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\akoyuncuoglu.ESTERTEKNOLOJI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ALPAY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\akoyuncuoglu.ESTERTEKNOLOJI\\Desktop\\EsterOfis Base Packages\\NugetPackages\\NugetPackages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +44,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.1, )"
@@ -87,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

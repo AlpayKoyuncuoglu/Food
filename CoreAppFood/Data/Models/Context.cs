@@ -6,7 +6,7 @@ namespace CoreAppFood.Data.Models
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=PC-KOYUNCUOGLU;database=Food;integrated security=true");
+            optionsBuilder.UseSqlServer("server=DESKTOP-61LAKB4;database=Food;integrated security=true");
         }
         public DbSet<Food> Foods { get; set; }
         public DbSet<Category> Categories { get; set; }
